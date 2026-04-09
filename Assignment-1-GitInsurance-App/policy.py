@@ -17,3 +17,5 @@ def list_policies():
     else:
         for policy in policies:
             print(policy)
+
+def test():print("bad format")
