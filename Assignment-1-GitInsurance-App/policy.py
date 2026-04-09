@@ -10,3 +10,10 @@ def remove_policy(policy):
         print(f"Policy '{policy}' removed.")
     else:
         print("Policy not found.")
+
+def list_policies():
+    if not policies:
+        print("No policies available.")
+    else:
+        for policy in policies:
+            print(policy)
