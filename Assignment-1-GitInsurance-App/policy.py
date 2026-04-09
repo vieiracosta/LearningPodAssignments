@@ -1,8 +1,10 @@
 policies = []
 
+
 def add_policy(policy):
     policies.append(policy)
     print(f"Policy '{policy}' added.")
+
 
 def remove_policy(policy):
     if policy in policies:
@@ -11,6 +13,7 @@ def remove_policy(policy):
     else:
         print("Policy not found.")
 
+
 def list_policies():
     if not policies:
         print("No policies available.")
@@ -18,4 +21,6 @@ def list_policies():
         for policy in policies:
             print(policy)
 
-def test():print("bad format")
+
+def test():
+    print("bad format")
